@@ -29,6 +29,7 @@
 </p>
 
 <p align="center">
+ <a href="https://github.com/tinyhumansai/openhuman/discussions">Discussions</a> •
  <a href="https://discord.tinyhumans.ai/">Discord</a> •
  <a href="https://www.reddit.com/r/tinyhumansai/">Reddit</a> •
  <a href="https://x.com/intent/follow?screen_name=tinyhumansai">X/Twitter</a> •
@@ -40,14 +41,18 @@
   🇺🇸 <a href="../README.md">English</a> | 🇨🇳 <a href="./README.zh-CN.md">简体中文</a> | 🇯🇵 <a href="./README.ja-JP.md">日本語</a> | 🇰🇷 <a href="./README.ko.md">한국어</a> | 🇩🇪 <a href="./README.de.md">Deutsch</a> | 🇵🇰 <a href="./README.ur-pk.md">اردو</a>
 </p>
 
+<p align="center"><a href="../guide/README.md">한국어 학습 가이드</a></p>
+
 <p align="center">
  <img src="https://img.shields.io/badge/status-early%20beta-orange" alt="얼리 베타" />
  <a href="https://github.com/tinyhumansai/openhuman/releases/latest"><img src="https://img.shields.io/github/v/release/tinyhumansai/openhuman?label=latest" alt="최신 릴리스" /></a>
- <a href="https://github.com/tinyhumansai/openhuman"><img src="https://img.shields.io/github/stars/tinyhumansai/openhuman?style=flat" alt="GitHub Stars" /></a>
+ <a href="https://github.com/tinyhumansai/openhuman/stargazers"><img src="https://img.shields.io/github/stars/tinyhumansai/openhuman?style=flat" alt="GitHub Stars" /></a>
  <a href="../LICENSE"><img src="https://img.shields.io/github/license/tinyhumansai/openhuman" alt="라이선스" /></a>
 </p>
 
 > **얼리 베타**: 활발히 개발 중입니다. 다소 미흡한 부분이 있을 수 있습니다.
+
+> OpenHuman은 AGI가 아닙니다. 하지만 더 나은 메모리, 오케스트레이션, 도구를 통해 그 방향으로 나아가는 의미 있는 아키텍처적 단계입니다.
 
 > 🎉 출시 후 일주일 만에 OpenHuman은 9일 연속 GitHub 트렌딩 저장소 1위에 올랐습니다.
 
@@ -77,7 +82,7 @@ OpenHuman은 대부분의 어시스턴트가 갖지 못한 세 가지입니다: 
 
 ### 🔬 깊이 있는 리서처이자 실행가
 
-- **모든 것이 포함됨(Batteries included)**: 웹 검색, 스크레이퍼, 코더 툴셋, 실제 [브라우저](https://tinyhumans.gitbook.io/openhuman/features/native-tools/browser-and-computer), 인프로세스 Whisper를 갖춘 [네이티브 음성](../gitbooks/features/native-tools/voice.md), 그리고 워크로드별로 적합한 LLM을 선택하는 [모델 라우팅](https://tinyhumans.gitbook.io/openhuman/features/model-routing)까지. 하나의 구독으로, [로컬 AI는 선택 사항](https://tinyhumans.gitbook.io/openhuman/features/model-routing/local-ai)입니다.
+- **모든 것이 포함됨(Batteries included)**: OpenHuman 구독에 포함되어 별도 API key 없이 사용할 수 있는 [Exa](https://exa.ai) 기반 [관리형 웹 검색](https://tinyhumans.gitbook.io/openhuman/features/native-tools/web-search)을 제공합니다. 자신의 Exa 계정과 과금 체계를 사용하려면 직접 key를 연결할 수도 있습니다. 여기에 scraper, coder toolset, 실제 [브라우저](https://tinyhumans.gitbook.io/openhuman/features/native-tools/browser-and-computer), process 내부 Whisper 기반 [네이티브 음성](../gitbooks/features/native-tools/voice.md)이 포함됩니다. [모델 라우팅](https://tinyhumans.gitbook.io/openhuman/features/model-routing)은 하나의 구독 안에서 workload에 적합한 LLM을 선택하지만 이 구독에 종속되지는 않습니다. workload별로 [자체 provider key 또는 완전한 local Ollama model](https://tinyhumans.gitbook.io/openhuman/features/model-routing/local-and-byok-models)을 지정하고 세 방식을 조합할 수 있습니다.
 - **[이미지 및 비디오 생성](https://tinyhumans.gitbook.io/openhuman/features/native-tools)**: Seedream/SeedEdit 이미지와 Seedance/Veo 비디오가 동일한 구독으로 워크스페이스에 바로 생성됩니다.
 - **[17개의 메시징 채널](https://tinyhumans.gitbook.io/openhuman/features/channels)**: Telegram, Discord, Slack, WhatsApp, Signal, iMessage… 그리고 **네이티브 이메일**(IMAP IDLE + SMTP)까지. 에이전트는 당신이 이미 있는 곳에서 당신에게 닿습니다.
 
